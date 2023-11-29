@@ -772,6 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthText: {fileID: 685114000}
+  maximumInjuredLayerWeight: 0.6
 --- !u!1 &2114184364
 GameObject:
   m_ObjectHideFlags: 0

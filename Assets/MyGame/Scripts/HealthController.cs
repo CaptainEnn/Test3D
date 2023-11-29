@@ -18,7 +18,7 @@ public class HealthController : MonoBehaviour
     private int injuredLayerIndex;
     private float layerWeightVelocity;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
